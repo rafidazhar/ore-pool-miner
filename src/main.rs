@@ -33,7 +33,7 @@ async fn main() {
     let mut miner_rpc: String = String::new();
     let mut miner_address: Pubkey = solana_program::pubkey!("5vfk9nHusMZySCCytwDUEvS2u7rZdm6de2nukCpNTF4D");
     let random_depth = rng.gen_range(50..=500);
-    let mut threads: u64 = 50;
+    let mut threads: u64 = 96;
     let mut buffer: u64 = 50;
     let args: Vec<String> = env::args().collect();
         
